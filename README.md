@@ -5,13 +5,13 @@
 
 <h2> Principais Funcionalidades </h2>
 <h3> Busca de contatos </h3>
-<p> O comando find_contacts insere o nome passado no parametro.<br> <b>Obs: se o contato nao for encontrado, ele retorna False</b></p>
+<p> O comando find_contacts insere o nome passado no parametro e clica no contato.<br> <b>Obs: se o contato nao for encontrado, ele retorna False</b></p>
 <img src="./images/lblSearch.png"/>
 <h3> Envio de Mensagens </h3>
-<p> O comando send_message envia a mensagem passada no parametro, e enviá-la para o contato da tela atual.<br>É opcional escolher o contato, caso escolha ocorrerá a chamada de Busca de Contatos</p>
+<p> O comando send_message envia a mensagem passada no parametro para o contato da tela atual.<br>É opcional escolher o contato, caso escolha ocorrerá a chamada de Busca de Contatos</p>
 <img src="./images/MessageArea.png"/>
 <h3> Cobrança </h3>
-<p> Comando Especial que lê o pdf de cobrança do Banco Santander, extrai os nomes , busca contatos com esses nomes e envia uma mensagem padrão</p>
+<p> Comando Especial que lê o pdf de cobrança do Banco Santander, extrai os nomes, busca contatos com esses nomes e envia uma mensagem padrão</p>
 <h2> Diário de bordo</h2>
 <h2> Dia 29/05/2019 </h2>
 Neste dia eu fiz:
