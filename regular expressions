@@ -1,0 +1,2 @@
+numero + numero com 1 +valor + data = \\n[0-9]+\s[0-9]+\s[0-9]+,[0-9]+\s[0-9\/]+ 99%
+nome = \\n[A-Z]{2,}\s[A-Z\s.]{2,} 100%
