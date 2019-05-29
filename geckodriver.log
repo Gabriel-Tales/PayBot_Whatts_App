@@ -603,3 +603,7 @@ console.log: Accessibility service init or shutdown observer does not exist.
 1559150664988	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: chrome://browser/content/content.js, line 1192: TypeError: manifestURI is null
 console.log: Accessibility service init or shutdown observer does not exist.
+1559167136308	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QnmmmwuzxB4a"
+1559167140290	Marionette	INFO	Listening on port 40513
+1559167140331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/content.js, line 1192: TypeError: manifestURI is null
