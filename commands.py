@@ -7,8 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-def pdf_to_name():
-    pages = convert_from_path(r"vencidos 18.05.pdf")
+def pdf_to_name(pdf_path):
+    pages = convert_from_path(pdf_path)
     page_pdf = []
     for i, page in enumerate(pages):
         page.save(f'vencidos{i}.jpg')
