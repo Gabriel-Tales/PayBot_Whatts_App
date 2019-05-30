@@ -3,6 +3,7 @@ import pytesseract
 from pdf2image import convert_from_path
 import re
 import subprocess
+from threading import Thread
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
@@ -39,7 +40,19 @@ def listen(bot, group):
 
 
 def check_messages(message, bot):
-    bot.send_message(message, )
+    if message.upper() == "OLA":
+        bot.send_message("Bot: Oi")
+    if message.upper() == "TESTANDO":
+        bot.send_message("Bot: Testando, 1 2 3 Testando")
+    if message.upper() == "COBRAR":
+        bot.send_message("Bot: Cobrando")
+        bot.cobrar()
+    if message.upper() == "PARAR":
+        bot.send_message("Bot: Parando")
+        bot.quit()
+        return False
+    return True
+
 
 
 
