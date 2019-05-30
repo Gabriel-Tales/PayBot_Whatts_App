@@ -34,7 +34,7 @@
 <p> Um grupo com nome padrao Comandos, no qual o bot interpreta a mensagem enviada pelo proprio contato.<br>Exemplos de comandos na imagem abaixo:</p>
 
 <!-- Imagem -->
-<img src="./images/BotCommands.png"/>
+<img src="./images/BotCommand.png"/>
 <!-- Nota -->
 <p><b>Obs 1: Os comandos são definidos no arquivo commands.py .</b></p>
 <p><b>Obs 2: Os comandos nao sao CaseSensitive</b></p>
