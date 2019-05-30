@@ -3,12 +3,13 @@ import pytesseract
 from pdf2image import convert_from_path
 import re
 import subprocess
+from threading import Thread
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-def pdf_to_name():
-    pages = convert_from_path(r"vencidos 18.05.pdf")
+def pdf_to_name(pdf_path):
+    pages = convert_from_path(pdf_path)
     page_pdf = []
     for i, page in enumerate(pages):
         page.save(f'vencidos{i}.jpg')
@@ -39,7 +40,19 @@ def listen(bot, group):
 
 
 def check_messages(message, bot):
-    bot.send_message(message, )
+    if message.upper() == "OLA":
+        bot.send_message("Bot: Oi")
+    if message.upper() == "TESTANDO":
+        bot.send_message("Bot: Testando, 1 2 3 Testando")
+    if message.upper() == "COBRAR":
+        bot.send_message("Bot: Cobrando")
+        bot.cobrar()
+    if message.upper() == "PARAR":
+        bot.send_message("Bot: Parando")
+        bot.quit()
+        return False
+    return True
+
 
 
 
