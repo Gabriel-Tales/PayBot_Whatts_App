@@ -5,8 +5,8 @@ from time import sleep
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-
-ff = webdriver.Firefox()
+# DEBUG
+#ff = webdriver.Firefox()
 
 
 class WhattsApp:
@@ -143,8 +143,8 @@ class WhattsApp:
         self.driver.quit()
         exit()
 
-
-z = WhattsApp(ff)
-z.navigate()
+# DEBUG
+#z = WhattsApp(ff)
+#z.navigate()
 
 
