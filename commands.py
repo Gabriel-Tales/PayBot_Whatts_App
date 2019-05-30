@@ -46,7 +46,7 @@ def check_messages(message, bot):
         bot.send_message("Bot: Testando, 1 2 3 Testando")
     if message.upper() == "COBRAR":
         bot.send_message("Bot: Cobrando")
-        bot.cobrar()
+        #bot.cobrar()
     if message.upper() == "PARAR":
         bot.send_message("Bot: Parando")
         bot.quit()

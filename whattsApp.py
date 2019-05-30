@@ -6,7 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 
 
-ff = webdriver.Firefox()
+#ff = webdriver.Firefox()
 
 
 class WhattsApp:
@@ -144,7 +144,7 @@ class WhattsApp:
         exit()
 
 
-z = WhattsApp(ff)
-z.navigate()
+#z = WhattsApp(ff)
+#z.navigate()
 
 

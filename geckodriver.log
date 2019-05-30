@@ -995,3 +995,23 @@ console.log: Accessibility service init or shutdown observer does not exist.
 1559224473728	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: chrome://browser/content/content.js, line 1192: TypeError: manifestURI is null
 console.log: Accessibility service init or shutdown observer does not exist.
+1559226364751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HyNwjgyJFgKC"
+1559226368480	Marionette	INFO	Listening on port 40875
+1559226368566	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/content.js, line 1192: TypeError: manifestURI is null
+1559226380781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NZhWZjGbEih7"
+1559226385045	Marionette	INFO	Listening on port 38435
+1559226385104	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1559226537257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Pp7EV5z3Zs0O"
+1559226541079	Marionette	INFO	Listening on port 41157
+1559226541171	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/content.js, line 1192: TypeError: manifestURI is null
+console.log: Accessibility service init or shutdown observer does not exist.
+1559226650096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1TKmvjkNVgpv"
+1559226653858	Marionette	INFO	Listening on port 45577
+1559226653915	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/content.js, line 1192: TypeError: manifestURI is null
